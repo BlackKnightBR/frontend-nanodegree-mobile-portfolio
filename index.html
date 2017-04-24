@@ -6,6 +6,11 @@
     <meta name="description" content=" Mobile porttfolio of Rodrigo Montebello Saboya Brito ">
     <meta name="author" content=" Rodrigo Montebello Saboya brito.">
     <title>Rodrigo Montebello Saboya Brito: Portfolio</title>
+    <?php
+      header("Cache-Control: private, max-age=10800, pre-check=10800");
+      header("Pragma: private");
+      header("Expires: " . date(DATE_RFC822,strtotime("30 day")));
+    ?>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
