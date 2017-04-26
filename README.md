@@ -38,3 +38,13 @@ To get started, check out the repository, inspect the code.
 * <a href="http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/">Rendering: repaint, reflow/relayout, restyle</a>
 * <a href="http://aerotwist.com/blog/on-translate3d-and-layer-creation-hacks/">On translate3d and layer creation hacks</a>
 * <a href="http://cubiq.org/performance-tricks-for-mobile-web-development">PERFORMANCE TRICKS FOR (MOBILE) WEB DEVELOPMENT</a>
+
+
+*What have I done:*
+ ** Instead of importing the fonts a used inline fonts.**
+ ** Async JavaScript to minimize Critical Resource that may block initial rendering of the page. **
+ ** Inline small javascript to minimize Critical Path Length. **
+ ** Measuring the Critical Rendering Path with Navigation Timing **
+
+*What I've missed:*
+** Using cache (I didn't quite catch it). **
